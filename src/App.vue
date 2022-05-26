@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <main-app />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainApp from './components/MainApp.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    MainApp
   },
 
   data: () => ({
@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss">
 ::-webkit-scrollbar {
-  
+
 }
 </style>
 
